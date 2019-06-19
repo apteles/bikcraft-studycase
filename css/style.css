@@ -41,6 +41,13 @@ img{
 .text-white{
     color: #fff;
 }
+.text-bold{
+    font-weight: bold;  
+}
+
+.align-right{
+    float: right;
+}
 
 .btn-border-2{
     border: 2px solid var(--main-color);
