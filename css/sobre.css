@@ -1,0 +1,25 @@
+.missao-visao{
+    padding: 60px 0;
+}
+.sobre{
+    background: url(../img/bg-sobre.jpg) no-repeat center;
+    background-size: cover;
+}
+.sobre p{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.missao-visao p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 1em;
+    padding-right: 40px;
+}
+.missao-visao ul li{
+    font-size: 18px;
+    line-height: 30px;
+}
+.foto-equipe{
+    padding-top: 40px;
+}

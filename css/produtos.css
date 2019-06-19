@@ -1,0 +1,169 @@
+.missao-visao{
+    padding: 60px 0;
+}
+.pagina-produtos{
+    background: url(../img/bg-produtos.jpg) no-repeat center;
+    background-size: cover;
+}
+.sobre p{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.missao-visao p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 1em;
+    padding-right: 40px;
+}
+.missao-visao ul li{
+    font-size: 18px;
+    line-height: 30px;
+}
+.foto-equipe{
+    padding-top: 40px;
+}
+
+.produto-item,
+.form-orcamento{
+    position: relative;
+    padding: 60px 0;
+}
+
+.produto-icone{
+    background: #000;
+}
+.produto-icone img{
+    margin: 0 auto;
+}
+
+.produto-icone{
+    padding: 70px 0;
+}
+
+.produto-item h2{
+    position: absolute;
+    top: 130px;
+    left: 230px;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.produto-item h2::before{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100px;
+    background-color:var(--separator-color);
+    margin: 10px auto;    
+}
+
+.produto-item h2::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100px;
+    background-color: var(--separator-color);
+    margin: 10px auto;    
+}
+.produto-imagem,
+.produto-icone{
+    margin-bottom: 20px;
+}
+
+.produto-descricao{
+    background: #000;
+}
+.produto-descricao p{
+    color: #fff;
+    padding: 27px 25px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.produto-descricao ul li{
+    padding: 15px 0;
+    background: var(--main-color);
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 20px;
+    display: inline-block;
+    width: 229px;
+    height: 49px;
+    float: left;
+    text-align: center;
+}
+
+.produto-descricao ul li:nth-child(even){
+    margin-left: 2px;
+}
+
+.produto-descricao ul li:nth-child(1),
+.produto-descricao ul li:nth-child(2){
+    margin-bottom: 2px;
+}
+
+/* .quebra{
+    margin-top: 60px;
+} */
+
+.form-orcamento{
+    background: #000;
+}
+.form-orcamento .subtitulo{
+    color: var(--main-color);
+}
+.form-orcamento .subtitulo::after{
+    background: var(--main-color);
+}
+.form-orcamento label{
+    color: #fff;
+    margin-bottom: 15px;
+    display: block;
+    font-weight: bold;
+}
+.input-form{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: .4em;
+    border: 4px solid var(--main-color);
+}
+
+input[name=form-orcamento]{
+    background-color: #000;
+    border-color: var(--main-color);
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.contato-especificacoes{
+    padding: 0 60px;
+}
+.dados{
+    margin-bottom: 2em;
+}
+.dados h3,.opcoes h3{
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--main-color);
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+.dados p, .opcoes ul li, .opcoes p{
+    color: #fff;
+    font-size: 1em;
+    line-height: 30px;
+    font-weight: bold;
+}
+.opcoes ul li{
+    padding: .3em;
+    margin-bottom: .2em;
+    width: 100%;
+}
+
+.opcoes ul li:nth-child(2n+1){
+    background-color: rgba(255, 255, 255, .2);
+}
