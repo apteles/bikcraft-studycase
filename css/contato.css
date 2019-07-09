@@ -1,0 +1,65 @@
+.missao-visao{
+    padding: 60px 0;
+}
+.pagina-contato{
+    background: url(../img/bg-contato.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.form-contato .subtitulo{
+    color: var(--main-color);
+}
+.form-contato .subtitulo::after{
+    background: var(--main-color);
+}
+.form-contato label{
+    color: #000;
+    margin-bottom: 15px;
+    display: block;
+    font-weight: bold;
+}
+.input-form{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: .4em;
+    border: 4px solid var(--main-color);
+}
+
+input[name=form-contato]{
+    background-color: #fff;
+    border: 1px solid var(--main-color);
+    border-width: 3px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.contato-especificacoes{
+    padding: 0 60px;
+}
+.contato-endereco{
+    margin-bottom: 2em;
+}
+
+.contato-endereco h3,.opcoes h3{
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--main-color);
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+.contato-endereco .social{
+    display: inline-block;
+}
+
+.contato-endereco .social li {
+    float: left;
+    margin-right: 10px;
+    padding: .6em;
+}
+
+.opcoes ul li, .contato-endereco p{
+    color: #000;
+    font-size: 1em;
+    line-height: 30px;
+    font-weight: bold;
+}

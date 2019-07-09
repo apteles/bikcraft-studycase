@@ -20,3 +20,33 @@ cite{
     margin-top: 30px;
     font-weight: bold;
 }
+
+.portfolio-lista div:last-of-type{
+    margin-top: 20px;
+}
+
+.rslides_tabs{
+    text-align: center;
+    margin-top: 14px;
+}
+
+.rslides_tabs li{
+    display: inline;
+    margin: 0 5px;
+}
+
+
+.rslides_tabs li a{
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    background: #1d1d1d;
+    border-radius: 50%;
+    overflow: hidden;
+    text-indent: -200px;
+}
+
+.rslides_tabs li.rslides_here a{
+    background: #fec63e;
+    color: #fec63e;
+}
