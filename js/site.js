@@ -42,9 +42,11 @@ $(".rslides").responsiveSlides({
   // Visibilty
 
 Visibility.onVisible(function(){
+    
     setTimeout(function(){
         $('.introducao h1').addClass('animated fadeInDown')
     }, 400)
+
     setTimeout(function(){
         $('.introducao .quote-externo').addClass('animated fadeInDown')
     }, 400)
